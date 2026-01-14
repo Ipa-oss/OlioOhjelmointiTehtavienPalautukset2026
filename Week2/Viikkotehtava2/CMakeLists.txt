@@ -5,7 +5,10 @@ project(Viikkotehtava2 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(Viikkotehtava2 main.cpp)
+add_executable(Viikkotehtava2 main.cpp
+    game.h game.cpp
+
+)
 
 include(GNUInstallDirs)
 install(TARGETS Viikkotehtava2
