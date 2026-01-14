@@ -1,4 +1,3 @@
-/*
 //TUNTIESIMERKKI
 #include "mittari.h"
 
@@ -8,4 +7,4 @@ int main()
     mittariOlio.setup();
     mittariOlio.mittaus();
     return 0;
-}*/
+}
