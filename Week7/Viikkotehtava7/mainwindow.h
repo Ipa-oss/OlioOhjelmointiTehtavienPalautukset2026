@@ -20,17 +20,16 @@ public:
 private slots:
     void countHandler();
     void resetHandler();
-private:
-    Ui::MainWindow *ui;
-    int num=0;
-    QString number1,number2;
-    QString buttontemp;
-    int state=1; //Need to init as 1, otherwise the number switch doesn't work.
-    float result;
-    short operand;
     void numberClickedHandler();
     void clearAndEnterClickHandler();
     void addSubMulDivCLickHandler();
     void resetLineEdits();
+private:
+    Ui::MainWindow *ui;
+    int num=0;
+    QString number1,number2;
+    int state=1; //Need to init as 1, otherwise the number switch doesn't work.
+    float result;
+    short operand;
 };
 #endif // MAINWINDOW_H
